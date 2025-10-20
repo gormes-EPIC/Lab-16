@@ -1,25 +1,12 @@
-# Lab 2
-
-## Objective
-
-1. Complete a programming project using Java. You may choose to complete **Wordle or Game of Life** based on the briefs below.
-2. Use IntelliJ to upload your project to GitHub
-
-## Option 2: Conway's Game of Life
+# Lab 16
+## Conway's Game of Life
 
 ### Objective
 
 1. Research and implement Conway's Game of Life, a well known zero-player game in computer science
 2. Use the Model-View-Controller software development pattern and the `Swing` library to visualize your game
-3. Use industry tools like IDEs and Git to develop your code
 
-### Getting Started
-
-1. Create a GitHub account using your personal mail address and connect it to IntelliJ under the VCS menu. 
-2. Connect your GitHub account to the GitHub Classroom via the Git & GitHub assignment in Google Classroom.
-3. Pull the GitHub Repository from GitHub Classroom for the starter code.
-4. Upload your assignment to GitHub when you are done and mark 'As Complete' on Google Classroom.
-6. Implement the `oneGeneration()` method in the `LifeModel.java` file as described below. 
+Your task is to implement the `oneGeneration()` method in the `LifeModel.java` file as described below. 
 
 ### Conway's Game of Life
 
@@ -63,29 +50,8 @@ Your `oneGeneration()` method must implement the rules of Conway's Game of Life 
 A sample run output for **generation 5** is given below.  Note, these are the correct answers if you use the provided data file `life100.txt`.  If you let life run for a long time, it will oscillate between the last 3 patterns.  There are actually 6 patterns as the line of three keeps switching.
 
 ### Deliverables
-
 - Your Java project with a completed `LifeModel.java` file.
-- If you use outside resources, cite them in your code. Add a comment explaining how you used the resource and a link. Consult the [MIT Code Citation Guidelines](https://integrity.mit.edu/handbook/writing-code) for examples.
 
-  
 ### Sources
 
 This starter code was created by Kimberly Jans. Original solution with graphics based on work by Roger Frank from Ponderosa High School in Parker, CO
-
-
-### Rubric
-
-*Course Content*
-
-- 6 points - All required items are present. 
-- 5 points - Task was completed, but supplementary materials are weak or missing.
-	- Code was uncommented. 
-	- Solution is correct but is significantly difficult to read, highly inefficient, very clumsy, very difficult to extend etc. From the original Jargon File, we would refer to solutions like this as *kluge*.
-	- Project succeeded on most test cases, but failed in some edge cases.
-	- Reflection questions related to content were incorrect.
-- 4 points - Task was attempted, but is missing major components. 
-	- Coding prompt was only partially completed.
-	- Project does not perform solution as described and failed multiple test cases.
-	- Some deliverables are missing.
-- 3 points - Did not attempt or student should reattempt. 
-	- Inappropriate use of AI tools.
